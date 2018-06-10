@@ -1,23 +1,23 @@
-CAS Overlay Template
+基于CAS的SSO单点登陆管理系统
 ============================
 
-Generic CAS WAR overlay to exercise the latest versions of CAS. This overlay could be freely used as a starting template for local CAS war overlays. The CAS services management overlay is available [here](https://github.com/apereo/cas-services-management-overlay).
+该项目采用[cas-overlay-template](https://github.com/apereo/cas-overlay-template)实现，目前包括单点登陆等功能；CAS服务管理项目可参看[cas-services-management](https://github.com/apereo/cas-services-management-overlay)。
 
-# Versions
+# 版本
 
 ```xml
 <cas.version>5.3.x</cas.version>
 ```
 
-# Requirements
+# 安装要求
 
 * JDK 1.8+
 
-# Configuration
+# 配置文件
 
 The `etc` directory contains the configuration files and directories that need to be copied to `/etc/cas/config`.
 
-# Build
+# 编译运行
 
 To see what commands are available to the build script, run:
 
